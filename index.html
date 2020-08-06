@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+
+  <body>
+    <div class="background-img"></div>
+    <div class="container">
+      <div class="card">
+        <img src="./images/logo.svg" alt="Logo" class="card-header" />
+        <div class="card-body">
+          <img src="./images/icon-document.svg" alt="document icon" />
+          <img src="./images/icon-folder.svg" alt="folder icon" />
+          <img src="./images/icon-upload.svg" alt="upload icon" />
+        </div>
+      </div>
+      <div class="storage">
+        <div class="card storage-card is-large">
+          <p class="card-text">
+            You’ve used <span class="highlight">815 GB</span> of your storage
+          </p>
+          <span class="tag is-light is-large"
+            ><strong class="big">185 </strong
+            ><span class="text">GB left</span></span
+          >
+          <progress class="progress" value="75" max="100">75%</progress>
+          <span class="ball">&nbsp;</span>
+          <div class="capacity">
+            <span class="0gb"> 0 GB</span>
+            <span class="1000gb">1000 GB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. &nbsp; Coded by <a href="#">Nesy Elimelech</a>.
+    </div>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+  </body>
+</html>
